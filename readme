@@ -1,0 +1,10 @@
+
+Language : Python 3.9
+Framework : FastAPI
+Database : Sqlalchemy-ORM
+Database setup : configuration is in "config" folder
+Models : Register, Task
+	ERD: Task model has foreignkey(user_id) relationship with Register model.
+Schema : Task_info, register_form
+Written CRUD Operation for Task and User Model using RESTful API
+
